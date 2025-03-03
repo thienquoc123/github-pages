@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pleiku - Thành phố núi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #004d99;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .intro {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+            background-color: #ffffff;
+            border-bottom: 2px solid #ccc;
+        }
+        .intro img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-right: 20px;
+            max-width: 500px;
+        }
+        .intro-text {
+            flex: 1;
+            max-width: 600px;
+            padding: 20px;
+        }
+        .intro-text h2 {
+            color: #333;
+        }
+        .attractions {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+        .attraction {
+            width: 30%;
+            margin: 15px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        .attraction img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .attraction h3 {
+            text-align: center;
+            padding: 10px;
+            background-color: #004d99;
+            color: white;
+        }
+        .attraction p {
+            padding: 10px;
+            text-align: justify;
+            color: #333;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Chào Mừng Đến với Pleiku</h1>
+    <p>Khám Phá Thành Phố Núi Mộng Mơ</p>
+</header>
+
+<div class="intro">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Pleiku_in_Gia_Lai.jpg/800px-Pleiku_in_Gia_Lai.jpg" alt="Pleiku - Thành phố núi">
+    <div class="intro-text">
+        <h2>Pleiku - Thành phố Núi Tươi Đẹp</h2>
+        <p>Pleiku là một thành phố nằm ở khu vực Tây Nguyên của Việt Nam, nổi bật với vẻ đẹp thiên nhiên hoang sơ, những ngọn đồi xanh mướt và khí hậu dễ chịu. Đây là một trong những điểm đến lý tưởng cho những ai yêu thích sự yên bình, hòa mình vào thiên nhiên và tìm hiểu về văn hóa của các dân tộc thiểu số.</p>
+        <p>Với những cảnh quan thiên nhiên tuyệt đẹp như hồ T’nưng, những khu rừng nguyên sinh, hay các thác nước hùng vĩ, Pleiku đang dần trở thành một địa điểm du lịch hấp dẫn đối với du khách trong và ngoài nước.</p>
+    </div>
+</div>
+
+<div class="attractions">
+    <div class="attraction">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Ho_Tn%C3%BBng%2C_Pleiku.jpg/800px-Ho_Tn%C3%BBng%2C_Pleiku.jpg" alt="Hồ T'Nưng">
+        <h3>Hồ T'Nưng</h3>
+        <p>Hồ T'Nưng, hay còn gọi là Biển Hồ, là một hồ nước ngọt tự nhiên nổi tiếng ở Pleiku. Nước hồ trong xanh, bao quanh là cánh rừng thông và những đồi núi trùng điệp. Đây là một điểm đến lý tưởng cho các hoạt động thư giãn và khám phá thiên nhiên.</p>
+    </div>
+    <div class="attraction">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Thac_2.jpg/800px-Thac_2.jpg" alt="Thác Phú Cường">
+        <h3>Thác Phú Cường</h3>
+        <p>Thác Phú Cường nằm cách trung tâm thành phố Pleiku khoảng 30 km. Với vẻ đẹp hoang sơ, thác nước này tạo ra một khung cảnh hùng vĩ, đầy quyến rũ, là nơi lý tưởng để du khách tận hưởng không khí trong lành và khám phá vẻ đẹp của thiên nhiên.</p>
+    </div>
+    <div class="attraction">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Ban_Lang_Mong_Gia_Lai.jpg/800px-Ban_Lang_Mong_Gia_Lai.jpg" alt="Bản Làng Mông">
+        <h3>Bản Làng Mông</h3>
+        <p>Bản Làng Mông là nơi sinh sống của đồng bào dân tộc Mông ở Pleiku. Du khách đến đây sẽ có cơ hội tìm hiểu về đời sống, phong tục tập quán của người dân tộc Mông, thưởng thức các món ăn đặc sản và hòa mình vào không gian văn hóa độc đáo của cộng đồng này.</p>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2025 Pleiku - Thành phố Núi | Tìm hiểu thêm về Pleiku tại website của chúng tôi</p>
+</footer>
+
+</body>
+</html>
